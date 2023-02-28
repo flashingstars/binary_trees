@@ -18,7 +18,7 @@ If parent already has a right-child the new node must take its place and the old
 If tree is NULL do nothing.
 
 4. A function that checks if a node is a leaf where node is a pointer to the node to check.
-Return 1 if node is a leaf otherwise 0. 
+Return 1 if node is a leaf otherwise 0.
 If node is NULL return 0.
 
 5. A function that checks if a given node is a root where node is a pointer to the node to check.
@@ -31,10 +31,10 @@ If tree or func is NULL, do nothing.
 7. A function that goes through a binary tree using in-order traversal where tree is a pointer to the root node of the tree to traverse and func is a pointer to a function to call for each node. The value of the node must be passed as a parameter to this function.
 If tree or func is NULL do nothing
 
-8. A function that goes through a binary tree using post-order traversal where tree is a pointer to the root node of the tree to traverse and func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function. 
+8. A function that goes through a binary tree using post-order traversal where tree is a pointer to the root node of the tree to traverse and func is a pointer to a function to call for each node. The value in the node must be passed as a parameter to this function.
 If tree or func is NULL do nothing.
 
-9. A function that measures the height of a binary tree where tree is a pointer to the root node of the tree to measure the height. 
+9. A function that measures the height of a binary tree where tree is a pointer to the root node of the tree to measure the height.
 If the tree is NULL return 0.
 
 10. A function that measures the depth of a node in a  binary tree where tree is a pointer to the node  to measure the depth.
